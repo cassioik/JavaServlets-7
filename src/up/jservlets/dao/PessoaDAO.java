@@ -26,7 +26,7 @@ public class PessoaDAO {
 	public List<Pessoa> getLista() throws Exception{
 		List<Pessoa> pessoas = new ArrayList<>();
 		Pessoa pessoa;
-		this.setPath("C:\\temp\\");
+		//this.setPath("C:\\temp\\");
 		
 		File archpessoa = new File(path);
 		

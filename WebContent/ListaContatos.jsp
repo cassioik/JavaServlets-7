@@ -10,6 +10,7 @@
     <table>
       <%
       PessoaDAO dao = new PessoaDAO();
+      dao.setPath("C:\\temp\\");
       List<Pessoa> pessoas = dao.getLista();
       
       for (Pessoa pessoa : pessoas ) {

@@ -111,14 +111,14 @@ public class Login extends HttpServlet {
 
 				session.setAttribute("userid", userid);
 
-				RequestDispatcher rd = request.getRequestDispatcher("Contato.html");
+				RequestDispatcher rd = request.getRequestDispatcher("Contato.jsp");
 
 				rd.forward(request, response);
 
 				return;
 
 			} else {
-				RequestDispatcher rd = request.getRequestDispatcher("Login.html");
+				RequestDispatcher rd = request.getRequestDispatcher("Login.jsp");
 
 				rd.forward(request, response);
 
